@@ -18,7 +18,7 @@ STATUS_URL = "https://queue.fal.run/fal-ai/nano-banana/requests/{}/status"
 RESULT_URL = "https://queue.fal.run/fal-ai/nano-banana/requests/{}"
 
 st.set_page_config(page_title="Nano Banana Virtual Try-On", layout="centered")
-st.title("👗 Nano Banana Virtual Try-On (POC)")
+st.title("Nano Banana Virtual Try-On (POC)")
 
 # Paste URLs
 model_url = st.text_input("Model Image URL (online link)")
