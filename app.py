@@ -10,7 +10,7 @@ import time
 load_dotenv()
 
 # FAL.AI Nano Banana endpoint
-FAL_API_URL = "https://queue.fal.run/fal-ai/nano-banana/edit"
+# FAL_API_URL = "https://queue.fal.run/fal-ai/nano-banana/edit"
 FAL_API_KEY = os.getenv("FAL_API_KEY")  # put your key here or in st.secrets
 
 CREATE_URL = "https://queue.fal.run/fal-ai/nano-banana/edit"
